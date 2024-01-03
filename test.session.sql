@@ -7,9 +7,6 @@ CREATE TABLE student (
   PRIMARY KEY(student_id)
 );
 
-  SELECT * FROM student;
+SELECT * FROM student;
 
-UPDATE student 
-SET major = 'Comp Sci'
-WHERE student_id = 4;
 

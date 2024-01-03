@@ -9,5 +9,7 @@ CREATE TABLE student (
 
   SELECT * FROM student;
 
-  INSERT INTO student(name, major) VALUES('JACK', 'Biology');
-  INSERT INTO student(name, major) VALUES('Kate', 'Sociology');
+UPDATE student 
+SET major = 'Comp Sci'
+WHERE student_id = 4;
+

@@ -7,6 +7,9 @@ CREATE TABLE student (
   PRIMARY KEY(student_id)
 );
 
-SELECT * FROM student;
+SELECT *
+FROM student
+WHERE major IN ('Biology', 'Chemistry') AND student_id > 2;
 
+-- <, ?
 

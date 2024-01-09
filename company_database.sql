@@ -1,1 +1,2 @@
-SELECT * FROM Branch;
+SELECT DISTINCT branch_id
+FROM employee;

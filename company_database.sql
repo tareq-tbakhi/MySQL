@@ -1,5 +1,4 @@
-SELECT salary as MONEY
+SELECT employee.emp_id, employee.first_name, branch.branch_name
 FROM employee
-UNION 
-SELECT total_sales
-FROM works_with
+JOIN branch
+ON employee.emp_id = branch.mgr_id;
